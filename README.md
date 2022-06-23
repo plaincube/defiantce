@@ -1,5 +1,5 @@
-# defiance
-Defiant CE's GitHub.
+# DefiantCE README
+DefiantCE's GitHub.
 DefiantCE or DefiantCheatEngine is a free and open source Minecraft 1.8.8 client that includes several hacks and OptiFine.
 
 I am not responsible for anything that happens to you Minecraft account.
