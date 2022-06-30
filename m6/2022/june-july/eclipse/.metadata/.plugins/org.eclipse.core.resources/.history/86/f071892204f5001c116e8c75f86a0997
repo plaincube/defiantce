@@ -1,0 +1,25 @@
+package bastion.defiantce.module.player;
+
+import org.lwjgl.input.Keyboard;
+
+import bastion.defiantce.module.Category;
+import bastion.defiantce.module.Module;
+import net.minecraft.network.play.client.C03PacketPlayer;
+
+
+public class CreativeMode extends Module {
+
+	public CreativeMode() {
+		super("CreativeMode", Keyboard.KEY_Z, Category.PLAYER);
+	}
+	
+	public void onUpdate() {
+		if(this.isToggled()) {
+			if(!mc.thePlayer.capabilities.isCreativeMode) {
+				mc.thePlayer.capabilities.isCreativeMode = true;
+			}			
+			super.onUpdate();
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+package bastion.defiantce.module.movement;
+
+import org.lwjgl.input.Keyboard;
+
+import bastion.defiantce.module.Category;
+import bastion.defiantce.module.Module;
+
+public class Flight extends Module {
+	
+	public static float flyHackSpeed = 0.1f;
+
+	public Flight() {
+		super("Flight", Keyboard.KEY_I, Category.MOVEMENT);
+	}
+	
+	public void onDisable() {
+		mc.thePlayer.capabilities.isFlying = false;
+		super.onDisable();
+	}
+	
+	public void onUpdate( ) {
+		mc.thePlayer.capabilities.isFlying = true;
+		
+		if(mc.gameSettings.keyBindJump.pressed = true) {
+			mc.thePlayer.motionY += 0.2f;
+		}
+		
+		if(mc.gameSettings.keyBindSneak.pressed = true) {
+			mc.thePlayer.motionY -= 0.2f;
+		}
+	}
+
+}

@@ -1,0 +1,23 @@
+package bastion.defiantce;
+
+import org.lwjgl.opengl.Display;
+
+import bastion.defiantce.module.ModuleManager;
+
+public class Defiant {
+	
+	public static Defiant instance = new Defiant();	
+
+	public static String name = "DefiantCE", version = "2022b1", creator = "Cube";
+	
+	public static ModuleManager moduleManager;
+	
+	public static void startClient() {
+		moduleManager = new ModuleManager();
+		
+		System.out.println("DCE: DefiantCE has started (main menu loaded).");
+		
+		Display.setTitle(name + " " + version);
+	}
+	
+}

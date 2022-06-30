@@ -1,0 +1,17 @@
+package bastion.defiantce.module.movement;
+
+import bastion.defiantce.module.Module;
+import bastion.defiantce.module.Category;
+
+import org.lwjgl.input.Keyboard;
+
+
+public class NoFallDamage extends Module {
+
+	public NoFallDamage() {
+		super("NoFallDamage", Keyboard.KEY_N, Category.MOVEMENT);
+	}
+	
+	
+
+}
