@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="bastion.defiantce.module.ModuleManager"/>
     <fullyQualifiedTypeName name="org.lwjgl.opengl.Display"/>
     <fullyQualifiedTypeName name="bastion.defiantce.utils.Wrapper"/>
-    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
     <fullyQualifiedTypeName name="net.minecraft.entity.EntityLivingBase"/>
     <fullyQualifiedTypeName name="bastion.defiantce.module.combat.KillAura"/>
     <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
@@ -13,8 +12,11 @@
     <fullyQualifiedTypeName name="net.minecraft.util.EnumFacing"/>
     <fullyQualifiedTypeName name="net.minecraft.util.BlockPos"/>
     <fullyQualifiedTypeName name="bastion.defiantce.module.Module"/>
-    <fullyQualifiedTypeName name="bastion.defiantce.module.Category"/>
     <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
     <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
     <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+    <fullyQualifiedTypeName name="de.Hero.settings.SettingsManager"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.Category"/>
 </qualifiedTypeNameHistroy>
