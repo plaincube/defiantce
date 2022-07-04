@@ -16,7 +16,12 @@
     <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
     <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
     <fullyQualifiedTypeName name="de.Hero.settings.SettingsManager"/>
-    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
     <fullyQualifiedTypeName name="java.util.Locale.Category"/>
     <fullyQualifiedTypeName name="bastion.defiantce.module.Category"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordEventHandlers.Builder"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.callbacks.ReadyCallback"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordUser"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence.Builder"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
 </qualifiedTypeNameHistroy>

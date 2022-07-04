@@ -16,11 +16,10 @@ import de.Hero.clickgui.elements.menu.ElementSlider;
 import de.Hero.clickgui.util.ColorUtil;
 import de.Hero.clickgui.util.FontUtil;
 import de.Hero.settings.Setting;
+import bastion.defiantce.Defiant;
+import bastion.defiantce.module.Module;
 
 //Deine Imports
-import me.deinclient.Client;
-import me.deinclient.modules.KeyBinds;
-import me.deinclient.modules.Module;
 
 /**
  *  Made by HeroCode
@@ -47,7 +46,7 @@ public class ModuleButton {
 		mod = imod;
 		height = Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT + 2;
 		parent = pl;
-		menuelements = new ArrayList<>();
+		menuelements = new ArrayList<Element>();
 		/*
 		 * Settings wurden zuvor in eine ArrayList eingetragen
 		 * dieses SettingSystem hat 3 Konstruktoren je nach
@@ -56,8 +55,8 @@ public class ModuleButton {
 		 *  irgendeinen Aufwand bestimmen welches Element
 		 *  für ein Setting benötigt wird :>
 		 */
-		if (Client.setmgr.getSettingsByMod(imod) != null)
-			for (Setting s : Client.setmgr.getSettingsByMod(imod)) {
+		if (Defiant.instance.settingsManager.getSettingsByMod(imod) != null)
+			for (Setting s : Defiant.instance.settingsManager.getSettingsByMod(imod)) {
 				if (s.isCheck()) {
 					menuelements.add(new ElementCheckBox(this, s));
 				} else if (s.isSlider()) {
@@ -114,7 +113,7 @@ public class ModuleButton {
 		if (mouseButton == 0) {
 			mod.toggle();
 			
-			if(Client.setmgr.getSettingByName("Sound").getValBoolean())
+			if(Defiant.instance.settingsManager.getSettingByName("Sound").getValBoolean())
 			Minecraft.getMinecraft().thePlayer.playSound("random.click", 0.5f, 0.5f);
 		} else if (mouseButton == 1) {
 			/*
@@ -123,10 +122,10 @@ public class ModuleButton {
 			 */
 			if (menuelements != null && menuelements.size() > 0) {
 				boolean b = !this.extended;
-				Client.clickgui.closeAllSettings();
+				Defiant.instance.clickGUI.closeAllSettings();
 				this.extended = b;
 				
-				if(Client.setmgr.getSettingByName("Sound").getValBoolean())
+				if(Defiant.instance.settingsManager.getSettingByName("Sound").getValBoolean())
 				if(extended)Minecraft.getMinecraft().thePlayer.playSound("tile.piston.out", 1f, 1f);else Minecraft.getMinecraft().thePlayer.playSound("tile.piston.in", 1f, 1f);
 			}
 		} else if (mouseButton == 2) {
@@ -145,11 +144,11 @@ public class ModuleButton {
 		 */
 		if (listening) {
 			if (keyCode != Keyboard.KEY_ESCAPE) {
-				Client.sendChatMessage("Bound '" + mod.getName() + "'" + " to '" + Keyboard.getKeyName(keyCode) + "'");
-				KeyBinds.bindKey(mod, keyCode);
+				//Client.sendChatMessage("Bound '" + mod.getName() + "'" + " to '" + Keyboard.getKeyName(keyCode) + "'");
+				mod.setKey(keyCode);;
 			} else {
-				Client.sendChatMessage("Unbound '" + mod.getName() + "'");
-				KeyBinds.bindKey(mod, Keyboard.KEY_NONE);
+				//Client.sendChatMessage("Unbound '" + mod.getName() + "'");
+				mod.setKey(Keyboard.KEY_NONE);;
 			}
 			listening = false;
 			return true;

@@ -3,7 +3,6 @@ package de.Hero.settings;
 import java.util.ArrayList;
 
 import bastion.defiantce.Defiant;
-
 import bastion.defiantce.module.Module;
 
 //Deine Imports

@@ -3,7 +3,7 @@ package de.Hero.clickgui.util;
 import java.awt.Color;
 
 //Deine Imports
-import me.deinclient.Client;
+import bastion.defiantce.Defiant;
 
 /**
  *  Made by HeroCode
@@ -15,6 +15,6 @@ import me.deinclient.Client;
 public class ColorUtil {
 	
 	public static Color getClickGUIColor(){
-		return new Color((int)Client.setmgr.getSettingByName("GuiRed").getValDouble(), (int)Client.setmgr.getSettingByName("GuiGreen").getValDouble(), (int)Client.setmgr.getSettingByName("GuiBlue").getValDouble());
+		return new Color((int)Defiant.instance.settingsManager.getSettingByName("GuiRed").getValDouble(), (int)Defiant.instance.settingsManager.getSettingByName("GuiGreen").getValDouble(), (int)Defiant.instance.settingsManager.getSettingByName("GuiBlue").getValDouble());
 	}
 }

@@ -1,6 +1,9 @@
 package net.minecraft.client.gui;
 
 import com.google.common.collect.Lists;
+
+import bastion.defiantce.Defiant;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -179,6 +182,9 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
      */
     public void initGui()
     {
+    	//Defiant
+    	Defiant.getDiscordRP().update("In Main Menu", "Idle");
+    	
         this.viewportTexture = new DynamicTexture(256, 256);
         this.backgroundTexture = this.mc.getTextureManager().getDynamicTextureLocation("background", this.viewportTexture);
         Calendar calendar = Calendar.getInstance();

@@ -16,14 +16,15 @@ import net.minecraft.util.ResourceLocation;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 
-import bastion.defiantce.Defiant;
-import bastion.defiantce.module.Category;
 import de.Hero.clickgui.elements.Element;
 import de.Hero.clickgui.elements.ModuleButton;
 import de.Hero.clickgui.elements.menu.ElementSlider;
 import de.Hero.clickgui.util.ColorUtil;
 import de.Hero.clickgui.util.FontUtil;
 import de.Hero.settings.SettingsManager;
+import bastion.defiantce.Defiant;
+import bastion.defiantce.module.Category;
+import bastion.defiantce.module.Module;
 
 //Deine Imports
 
@@ -64,7 +65,7 @@ public class ClickGUI extends GuiScreen {
 		/*
 		 * Zum Sortieren der Panels einfach die Reihenfolge im Enum ändern ;)
 		 */
-		for (Category c : Category.values()) {
+		for (final Category c : Category.values()) {
 			String title = Character.toUpperCase(c.name().toLowerCase().charAt(0)) + c.name().toLowerCase().substring(1);
 			ClickGUI.panels.add(new Panel(title, px, py, pwidth, pheight, false, this) {
 						@Override
@@ -111,7 +112,7 @@ public class ClickGUI extends GuiScreen {
 		}
 
 		
-		/*															*/ ScaledResolution s = new ScaledResolution(mc, mc.displayWidth,mc.displayHeight);
+		/*															*/ ScaledResolution s = new ScaledResolution(mc);
   		/* DO NOT REMOVE											*/ GL11.glPushMatrix();
 		/* copyright HeroCode 2017									*/ GL11.glTranslated(s.getScaledWidth(), s.getScaledHeight(), 0);GL11.glScaled(0.5, 0.5, 0.5);
 		/* https://www.youtube.com/channel/UCJum3PIbnYvIfIEu05GL_yQ	*/ FontUtil.drawStringWithShadow("b"+"y"+ "H"+"e"+"r"+"o"+"C"+"o"+"d"+"e", -Minecraft.getMinecraft().fontRendererObj.getStringWidth("b"+"y"+ "H"+"e"+"r"+"o"+"C"+"o"+"d"+"e"), -Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT, 0xff11F86B);
@@ -152,7 +153,7 @@ public class ClickGUI extends GuiScreen {
 						for (Element e : b.menuelements) {
 							e.offset = off;
 							e.update();
-							if(Client.setmgr.getSettingByName("Design").getValString().equalsIgnoreCase("New")){
+							if(Defiant.instance.settingsManager.getSettingByName("Design").getValString().equalsIgnoreCase("New")){
 								Gui.drawRect(e.x, e.y, e.x + e.width + 2, e.y + e.height, outlineColor);
 							}
 							e.drawScreen(mouseX, mouseY, partialTicks);
@@ -175,7 +176,7 @@ public class ClickGUI extends GuiScreen {
 			GL11.glScalef(4.0F, 4.0F, 0F);
 			FontUtil.drawTotalCenteredStringWithShadow("Listening...", 0, -10, 0xffffffff);
 			GL11.glScalef(0.5F, 0.5F, 0F);
-			FontUtil.drawTotalCenteredStringWithShadow("Press 'ESCAPE' to unbind " + mb.mod.getName() + (mb.mod.getKeybind() > -1 ? " (" + Keyboard.getKeyName(mb.mod.getKeybind())+ ")" : ""), 0, 0, 0xffffffff);
+			FontUtil.drawTotalCenteredStringWithShadow("Press 'ESCAPE' to unbind " + mb.mod.getName() + (mb.mod.getKey() > -1 ? " (" + Keyboard.getKeyName(mb.mod.getKey())+ ")" : ""), 0, 0, 0xffffffff);
 			GL11.glScalef(0.25F, 0.25F, 0F);
 			FontUtil.drawTotalCenteredStringWithShadow("by HeroCode", 0, 20, 0xffffffff);
 			GL11.glPopMatrix();
@@ -309,17 +310,7 @@ public class ClickGUI extends GuiScreen {
 	}
 
 	@Override
-	public void initGui() {
-		/*
-		 * Start blur
-		 */
-		if (OpenGlHelper.shadersSupported && mc.func_175606_aa() instanceof EntityPlayer) {
-			if (mc.entityRenderer.theShaderGroup != null) {
-				mc.entityRenderer.theShaderGroup.deleteShaderGroup();
-			}
-			mc.entityRenderer.func_175069_a(new ResourceLocation("shaders/post/blur.json"));
-		}
-	}
+	public void initGui() {}
 
 	@Override
 	public void onGuiClosed() {

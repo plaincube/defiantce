@@ -15,12 +15,16 @@ public class GuiIngameHook extends GuiIngame {
 	public void renderGameOverlay(float p_175180_1_){
 	      super.renderGameOverlay(p_175180_1_);
 	      
+	      if(!mc.gameSettings.showDebugInfo) {
+	    	  
+	    	  drawRect(2, 2, 95, 14, 0x80000000);
+		      Wrapper.fr.drawString("DefiantCE", 4, 4, 0x00CDFF);
+		      Wrapper.fr.drawString("FPS: " + mc.getDebugFPS(), 55, 4, -1);
+		      
+		      renderArrayList();
+	    	  
+	      }
 	      
-	      drawRect(2, 2, 95, 14, 0x80000000);
-	      Wrapper.fr.drawString("DefiantCE", 4, 4, 0x00CDFF);
-	      Wrapper.fr.drawString("FPS: " + mc.getDebugFPS(), 55, 4, -1);
-	      
-	      renderArrayList();
 	}     
 
 	public void renderArrayList() {

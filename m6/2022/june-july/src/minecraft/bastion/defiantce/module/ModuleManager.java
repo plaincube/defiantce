@@ -2,8 +2,21 @@ package bastion.defiantce.module;
 
 import java.util.ArrayList;
 
-import bastion.defiantce.module.combat.*;
-import bastion.defiantce.module.movement.*;
+import bastion.defiantce.module.combat.FastBow;
+import bastion.defiantce.module.combat.KillAura;
+import bastion.defiantce.module.movement.AutoJump;
+import bastion.defiantce.module.movement.Flight;
+import bastion.defiantce.module.movement.NoFallDamage;
+import bastion.defiantce.module.movement.ParkourHelper;
+import bastion.defiantce.module.movement.QuickLand;
+import bastion.defiantce.module.movement.SneakLock;
+import bastion.defiantce.module.movement.SpeedHack;
+import bastion.defiantce.module.movement.SprintLock;
+import bastion.defiantce.module.movement.UnlimitedJumps;
+import bastion.defiantce.module.movement.WalkLock;
+import bastion.defiantce.module.movement.WallClimb;
+import bastion.defiantce.module.movement.WaterBobbing;
+import bastion.defiantce.module.render.ClickGui;
 
 public class ModuleManager {
 
@@ -33,6 +46,7 @@ public class ModuleManager {
 		//PLAYER
 		
 		//RENDER
+		newMod(new ClickGui());
 		
 		//MISC
 	}

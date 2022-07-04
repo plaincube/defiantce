@@ -2,7 +2,6 @@ package de.Hero.clickgui.elements.menu;
 
 import java.awt.Color;
 
-import me.deinclient.Client;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Gui;
 import de.Hero.clickgui.elements.Element;
@@ -10,6 +9,7 @@ import de.Hero.clickgui.elements.ModuleButton;
 import de.Hero.clickgui.util.ColorUtil;
 import de.Hero.clickgui.util.FontUtil;
 import de.Hero.settings.Setting;
+import bastion.defiantce.Defiant;
 
 /**
  *  Made by HeroCode
@@ -91,7 +91,7 @@ public class ElementComboBox extends Element {
 			double ay = y + 15;
 			for (String slcd : set.getOptions()) {
 				if (mouseX >= x && mouseX <= x + width && mouseY >= ay && mouseY <= ay + FontUtil.getFontHeight() + 2) {
-					if(Client.setmgr.getSettingByName("Sound").getValBoolean())
+					if(Defiant.instance.settingsManager.getSettingByName("Sound").getValBoolean())
 					Minecraft.getMinecraft().thePlayer.playSound("tile.piston.in", 20.0F, 20.0F);
 					
 					if(clickgui != null && clickgui.setmgr != null)
