@@ -1,0 +1,76 @@
+[16:30:43] [Client thread/INFO]: Setting user: Player984
+[16:30:43] [Client thread/INFO]: (Session ID is token:0:Player984)
+[16:30:48] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:30:48] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:30:48] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:30:48] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[16:30:48] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:30:49] [Thread-6/INFO]: OpenAL initialized.
+[16:30:49] [Sound Library Loader/INFO]: Sound engine started
+[16:30:50] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[16:31:01] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[16:31:01] [Server thread/INFO]: Generating keypair
+[16:31:01] [Server thread/INFO]: Preparing start region for level 0
+[16:31:02] [Server thread/INFO]: Changing view distance to 8, from 10
+[16:31:02] [Server thread/INFO]: Player984[local:E:be00b978] logged in with entity id 177 at (-1.7844154619639823, 91.0, 211.1972066765703)
+[16:31:02] [Server thread/INFO]: Player984 joined the game
+[16:31:02] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[16:31:09] [Server thread/INFO]: Saving and pausing game...
+[16:31:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:31:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:31:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:31:33] [Server thread/INFO]: Player984 has just earned the achievement [Taking Inventory]
+[16:31:33] [Client thread/INFO]: [CHAT] Player984 has just earned the achievement [Taking Inventory]
+[16:34:28] [Server thread/INFO]: Saving and pausing game...
+[16:34:28] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:34:28] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:34:28] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:34:31] [Server thread/INFO]: Stopping server
+[16:34:31] [Server thread/INFO]: Saving players
+[16:34:31] [Server thread/INFO]: Saving worlds
+[16:34:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:34:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:34:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:41:01] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[16:41:01] [Server thread/INFO]: Generating keypair
+[16:41:01] [Server thread/INFO]: Preparing start region for level 0
+[16:41:01] [Server thread/INFO]: Changing view distance to 8, from 10
+[16:41:01] [Server thread/INFO]: Player984[local:E:a9b96c96] logged in with entity id 78425 at (-0.34230361103642537, 91.0, 211.85142364548238)
+[16:41:01] [Server thread/INFO]: Player984 joined the game
+[16:41:12] [Server thread/INFO]: Saving and pausing game...
+[16:41:12] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:41:13] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:41:13] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:41:50] [Server thread/INFO]: Saving and pausing game...
+[16:41:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:41:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:41:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:42:00] [Server thread/INFO]: Saving and pausing game...
+[16:42:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:42:00] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:42:00] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:42:07] [Server thread/INFO]: Saving and pausing game...
+[16:42:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:42:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:42:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:42:32] [Server thread/INFO]: Saving and pausing game...
+[16:42:32] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:42:32] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:42:32] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:43:00] [Server thread/INFO]: [Player984: Set the time to 1000]
+[16:43:00] [Client thread/INFO]: [CHAT] Set the time to 1000
+[16:43:00] [Server thread/INFO]: Saving and pausing game...
+[16:43:00] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:43:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:43:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:43:01] [Server thread/INFO]: Stopping server
+[16:43:01] [Server thread/INFO]: Saving players
+[16:43:01] [Server thread/INFO]: Saving worlds
+[16:43:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:43:02] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:43:02] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:43:02] [Client thread/INFO]: Realms library version == 1.7.39
+[16:43:02] [MCO Availability Checker #1/ERROR]: Couldn't connect to realms: 
+[16:43:04] [Client thread/INFO]: Stopping!
+[16:43:04] [Client thread/INFO]: SoundSystem shutting down...
+[16:43:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
