@@ -1,0 +1,7 @@
+package bastion.defiantce.module.player;
+
+import bastion.defiantce.Defiant;
+
+public class CreativeMode extends Module {
+
+}

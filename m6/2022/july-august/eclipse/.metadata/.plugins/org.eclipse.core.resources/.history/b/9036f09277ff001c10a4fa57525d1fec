@@ -1,0 +1,35 @@
+package bastion.defiantce.module.player;
+
+import bastion.defiantce.module.Category;
+import bastion.defiantce.module.Module;
+
+public class CreativeMode extends Module {
+
+	public CreativeMode() {
+		super("CreativeMode", 0, Category.PLAYER);
+	}
+	
+	public void onDisable() {
+		if(mc.thePlayer.capabilities.isCreativeMode) {
+			String cmode = "yes";
+		}else {
+			String cmode = "no";
+		}
+		
+		if(!mc.thePlayer.capabilities.isCreativeMode) {
+			mc.thePlayer.capabilities.isCreativeMode = false;
+		}
+		super.onDisable();
+	}
+	
+	public void onUpdate( ) {
+		if(this.isToggled()) {
+			
+			
+			
+			super.onDisable();
+			
+		}
+	}
+
+}

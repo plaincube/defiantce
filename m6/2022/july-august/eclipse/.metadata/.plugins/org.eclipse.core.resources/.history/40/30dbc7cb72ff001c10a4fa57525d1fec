@@ -1,0 +1,12 @@
+package bastion.defiantce.module.player;
+
+import bastion.defiantce.module.Category;
+import bastion.defiantce.module.Module;
+
+public class CreativeMode extends Module {
+
+	public CreativeMode(String nm, int k, Category c) {
+		super(nm, k, c);
+	}
+
+}

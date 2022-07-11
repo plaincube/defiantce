@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="net.minecraft.network.play.client.C07PacketPlayerDigging.Action"/>
     <fullyQualifiedTypeName name="net.minecraft.util.EnumFacing"/>
     <fullyQualifiedTypeName name="net.minecraft.util.BlockPos"/>
-    <fullyQualifiedTypeName name="bastion.defiantce.module.Module"/>
     <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
     <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
     <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
@@ -25,4 +24,6 @@
     <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence.Builder"/>
     <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
     <fullyQualifiedTypeName name="bastion.defiantce.module.render.ESP"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.Module"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.player.NoDamage"/>
 </qualifiedTypeNameHistroy>
