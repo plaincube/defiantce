@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 import bastion.defiantce.module.combat.*;
 import bastion.defiantce.module.movement.*;
-import bastion.defiantce.module.player.*;
 import bastion.defiantce.module.render.*;
 
 public class ModuleManager {
@@ -33,7 +32,6 @@ public class ModuleManager {
 		newMod(new WaterBobbing());
 		
 		//PLAYER
-		newMod(new NoDamage());
 		
 		//RENDER
 		newMod(new ClickGui());
