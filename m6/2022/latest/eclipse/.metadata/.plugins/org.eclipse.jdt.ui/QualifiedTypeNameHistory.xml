@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.ModuleManager"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.Display"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.utils.Wrapper"/>
+    <fullyQualifiedTypeName name="net.minecraft.entity.EntityLivingBase"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.combat.KillAura"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="net.minecraft.item.ItemBow"/>
+    <fullyQualifiedTypeName name="net.minecraft.network.play.client.C03PacketPlayer"/>
+    <fullyQualifiedTypeName name="net.minecraft.network.play.client.C07PacketPlayerDigging.Action"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.EnumFacing"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.BlockPos"/>
+    <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+    <fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+    <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+    <fullyQualifiedTypeName name="de.Hero.settings.SettingsManager"/>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.Category"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordEventHandlers.Builder"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.callbacks.ReadyCallback"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordUser"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence"/>
+    <fullyQualifiedTypeName name="net.arikia.dev.drpc.DiscordRichPresence.Builder"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.render.ESP"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.Module"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.player.NoDamage"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.module.render.Xray"/>
+</qualifiedTypeNameHistroy>
