@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import bastion.defiantce.module.combat.*;
 import bastion.defiantce.module.movement.*;
+import bastion.defiantce.module.player.*;
 import bastion.defiantce.module.render.*;
 
 public class ModuleManager {
@@ -23,6 +24,7 @@ public class ModuleManager {
 		newMod(new NoFallDamage());
 		newMod(new ParkourHelper());
 		newMod(new Glide());
+		newMod(new JumpLock());
 		newMod(new SneakLock());
 		newMod(new SpeedHack());
 		newMod(new SprintLock());
@@ -32,6 +34,12 @@ public class ModuleManager {
 		newMod(new WaterBobbing());
 		
 		//PLAYER
+		newMod(new AntiAFK());
+		newMod(new AntiCobweb());
+		newMod(new AutoMine());
+		newMod(new AutoRespawn());
+		newMod(new FastLadder());
+		newMod(new FastUse());
 		
 		//RENDER
 		newMod(new ClickGui());

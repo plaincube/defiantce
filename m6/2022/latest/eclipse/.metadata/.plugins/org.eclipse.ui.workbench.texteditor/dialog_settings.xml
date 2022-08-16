@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="shouldSideBeRendered"/>
+		<item key="selection" value="bastion.defiantce"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="me.gamrboy4life.paradox"/>
+			<item value="BunnyHop"/>
+			<item value="me.gamrbox4life.paradox"/>
+			<item value="//DefiantCE"/>
 			<item value="shouldSideBeRendered"/>
 			<item value="sho"/>
 			<item value="Paradox"/>
-			<item value="me.gamrboy4life.paradox"/>
 			<item value="me.gamrboy4life.paradox.Paradox"/>
 			<item value="initgui"/>
 			<item value="gui.init"/>
@@ -20,13 +23,11 @@
 			<item value="this.mynetworkanager = networkmanager"/>
 			<item value="this.mynetworkanager = network1"/>
 			<item value="this.myNetworkManager = network1"/>
-			<item value="this.myNetworkManager = network!"/>
-			<item value="this.myNetworkManager = networkl"/>
-			<item value="network1"/>
 		</list>
 		<list key="replacehistory">
-			<item value="Defiant"/>
 			<item value="bastion.defiantce"/>
+			<item value="JumpLock"/>
+			<item value="Defiant"/>
 			<item value="bastion.defiantce.Defiant"/>
 			<item value=""/>
 			<item value="Defiant.instance.settingsManager"/>

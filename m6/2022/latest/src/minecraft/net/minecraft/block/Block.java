@@ -474,6 +474,8 @@ public class Block
     		return true;
     	if(this == Block.getBlockById(16))
     		return true;
+    	if(this == Block.getBlockById(17))
+    		return true;
     	if(this == Block.getBlockById(21))
     		return true;
     	if(this == Block.getBlockById(56))

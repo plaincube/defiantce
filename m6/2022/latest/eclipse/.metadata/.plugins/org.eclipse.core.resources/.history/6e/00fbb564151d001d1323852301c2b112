@@ -1,0 +1,5 @@
+package bastion.defiantce.module.movement;
+
+public class JumpLock {
+
+}
