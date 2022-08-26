@@ -29,7 +29,8 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
     <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
-    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
     <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
     <fullyQualifiedTypeName name="bastion.defiantce.module.ModuleManager"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.command.Command"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
 </qualifiedTypeNameHistroy>
