@@ -18,7 +18,7 @@ public class GuiIngameHook extends GuiIngame {
 	      if(!mc.gameSettings.showDebugInfo) {
 	    	  
 	    	  drawRect(2, 2, 95, 14, 0x80000000);
-		      Wrapper.fr.drawString("DefiantCE", 4, 4, 0x00CDFF);
+		      Wrapper.fr.drawString("DefiantCE", 4, 4, 0x0000AA);
 		      Wrapper.fr.drawString("FPS: " + mc.getDebugFPS(), 55, 4, -1);
 		      
 		      renderArrayList();

@@ -1,241 +1,49 @@
-[12:02:27] [Client thread/INFO]: Setting user: Player500
-[12:02:27] [Client thread/INFO]: (Session ID is token:0:Player500)
-[12:02:30] [Client thread/INFO]: LWJGL Version: 2.9.4
-[12:02:31] [Client thread/INFO]: Reloading ResourceManager: Default
-[12:02:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[12:02:31] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[12:02:31] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[12:02:31] [Thread-6/INFO]: OpenAL initialized.
-[12:02:31] [Sound Library Loader/INFO]: Sound engine started
-[12:02:39] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[12:02:43] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[12:02:43] [Server thread/INFO]: Generating keypair
-[12:02:43] [Server thread/INFO]: Preparing start region for level 0
-[12:02:44] [Server thread/INFO]: Preparing spawn area: 57%
-[12:02:45] [Server thread/INFO]: Changing view distance to 8, from 10
-[12:02:45] [Server thread/INFO]: Player500[local:E:db1d49c1] logged in with entity id 252 at (-10.744060276723495, 89.0, 187.09027643809006)
-[12:02:45] [Server thread/INFO]: Player500 joined the game
-[12:02:46] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
-[12:02:53] [Server thread/INFO]: Saving and pausing game...
-[12:02:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:02:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:02:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:02:54] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 599 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:02:54] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 601 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:02:56] [Server thread/INFO]: Saving and pausing game...
-[12:02:56] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:02:56] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:02:56] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:02:56] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 601 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:02:58] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 597 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:36] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 601 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:37] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 597 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:41] [Server thread/INFO]: Saving and pausing game...
-[12:03:41] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:03:41] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:03:41] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:03:41] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 599 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:41] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 601 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:47] [Server thread/INFO]: Saving and pausing game...
-[12:03:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:03:47] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:03:47] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:03:48] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 599 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:48] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 601 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:03:57] [Server thread/INFO]: Player500 has just earned the achievement [Taking Inventory]
-[12:03:58] [Client thread/INFO]: [CHAT] Player500 has just earned the achievement [Taking Inventory]
-[12:04:01] [Server thread/INFO]: Saving and pausing game...
-[12:04:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:04:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:04:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:04:01] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 599 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:04:01] [File IO Thread/ERROR]: Failed to save chunk
-java.lang.IndexOutOfBoundsException: Index 601 out of bounds for length 597
-	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
-	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
-	at java.base/java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
-	at java.base/java.util.ArrayList.set(ArrayList.java:441) ~[?:?]
-	at net.minecraft.world.chunk.storage.RegionFile.write(RegionFile.java:211) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.RegionFile$ChunkBuffer.close(RegionFile.java:362) ~[bin/:?]
-	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:240) ~[?:?]
-	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:188) ~[?:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:185) ~[bin/:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeNextIO(AnvilChunkLoader.java:162) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.processQueue(ThreadedFileIOBase.java:47) [bin/:?]
-	at net.minecraft.world.storage.ThreadedFileIOBase.run(ThreadedFileIOBase.java:35) [bin/:?]
-	at java.base/java.lang.Thread.run(Thread.java:833) [?:?]
-[12:04:01] [Server thread/INFO]: Stopping server
-[12:04:01] [Server thread/INFO]: Saving players
-[12:04:01] [Server thread/INFO]: Saving worlds
-[12:04:01] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[12:04:01] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[12:04:01] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[12:04:02] [Client thread/INFO]: Stopping!
-[12:04:02] [Client thread/INFO]: SoundSystem shutting down...
-[12:04:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:25:38] [Client thread/INFO]: Setting user: Player671
+[18:25:38] [Client thread/INFO]: (Session ID is token:0:Player671)
+[18:25:40] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:25:42] [Client thread/INFO]: Reloading ResourceManager: Default
+[18:25:43] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:25:43] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[18:25:43] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:25:44] [Thread-6/INFO]: OpenAL initialized.
+[18:25:44] [Sound Library Loader/INFO]: Sound engine started
+[18:25:56] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[18:26:41] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[18:26:41] [Server thread/INFO]: Generating keypair
+[18:26:41] [Server thread/INFO]: Preparing start region for level 0
+[18:26:42] [Server thread/INFO]: Preparing spawn area: 53%
+[18:26:43] [Server thread/INFO]: Changing view distance to 8, from 10
+[18:26:43] [Server thread/INFO]: Player671[local:E:3d8229bb] logged in with entity id 257 at (-3.7081268970407653, 90.0, 205.4939795032401)
+[18:26:43] [Server thread/INFO]: Player671 joined the game
+[18:26:43] [Client thread/INFO]: [CHAT] A new §eOptiFine§f version is available: §eHD Ultra I7§f
+[18:26:52] [Server thread/INFO]: Saving and pausing game...
+[18:26:53] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:26:54] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:26:54] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:26:54] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2480ms behind, skipping 49 tick(s)
+[18:26:57] [Server thread/INFO]: Saving and pausing game...
+[18:26:57] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:26:57] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:26:57] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:27:35] [Client thread/INFO]: [CHAT] §1DefiantCE:§f All keybinds cleared!
+[18:27:38] [Server thread/INFO]: Saving and pausing game...
+[18:27:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:27:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:27:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:27:53] [Server thread/INFO]: [Player671: Your own game mode was set to Survival Mode]
+[18:27:53] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:28:21] [Client thread/INFO]: [CHAT] §1DefiantCE:§f Bound NoFallDamage to N!
+[18:28:40] [Client thread/INFO]: [CHAT] §1DefiantCE:§f Bound Flight to F!
+[18:30:26] [Server thread/INFO]: Saving and pausing game...
+[18:30:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:30:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:30:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:30:27] [Server thread/INFO]: Stopping server
+[18:30:27] [Server thread/INFO]: Saving players
+[18:30:27] [Server thread/INFO]: Saving worlds
+[18:30:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[18:30:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[18:30:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[18:30:27] [Client thread/INFO]: Stopping!
+[18:30:27] [Client thread/INFO]: SoundSystem shutting down...
+[18:30:28] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

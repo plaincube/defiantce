@@ -2,10 +2,13 @@ package bastion.defiantce.module;
 
 import java.util.ArrayList;
 
+import bastion.defiantce.Defiant;
 import bastion.defiantce.module.combat.*;
 import bastion.defiantce.module.movement.*;
 import bastion.defiantce.module.player.*;
 import bastion.defiantce.module.render.*;
+import net.minecraft.client.Minecraft;
+import net.minecraft.util.ChatComponentText;
 
 public class ModuleManager {
 
@@ -75,6 +78,11 @@ public class ModuleManager {
 				m.toggle();
 			}
 		}
+	}
+	
+	public static void addChatMessage(String message){
+		message = "\u00A71" + "DefiantCE:" + "\u00A7f " + message;
+		Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(message));
 	}
 	
 }

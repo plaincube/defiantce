@@ -1,0 +1,13 @@
+package bastion.defiantce.command.commands;
+
+import bastion.defiantce.command.Command;
+
+public class Bind extends Command {
+
+	public Bind() {
+		super("Bind", "Binds a module to a key on your keyboard.", "bind <module> <key> | bind clear", "b");
+	}
+
+	
+	
+}

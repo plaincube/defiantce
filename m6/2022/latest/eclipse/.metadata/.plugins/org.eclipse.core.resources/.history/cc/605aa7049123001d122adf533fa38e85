@@ -1,0 +1,31 @@
+package bastion.defiantce.command.commands;
+
+import bastion.defiantce.Defiant;
+import bastion.defiantce.command.Command;
+
+public class Bind extends Command {
+
+	public Bind() {
+		super("Bind", "Binds a module to a key on your keyboard.", "bind <module> <key> | bind clear", "b");
+	}
+
+	@Override
+	public void onCommand(String[] args, String command) {
+		if(args.length == 2) {
+			String moduleName = args[0];
+			String keyName = args[1];
+			
+			boolean foundModule = false;
+			
+			for(bastion.defiantce.module.Module module : Defiant.instance.moduleManager.getModules()) {
+				if(module.name.equalsIgnoreCase(moduleName)) {
+					
+				}
+			}
+		}
+		
+	}
+
+	
+	
+}

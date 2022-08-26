@@ -1,0 +1,37 @@
+package bastion.defiantce.command;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import bastion.defiantce.event.events.EventChat;
+
+public class CommandManager {
+
+	public static List<Command> commands = new ArrayList<Command>();
+	public String prefix = "//..";
+	
+	public CommandManager() {
+		setup();
+	}
+	
+	public void setup() {
+		
+		//Commands
+		
+		
+	}
+	
+	public static List<Command> getCommands(){
+		return commands;
+	}
+	
+	public void handleChat(EventChat event) {
+		String message = event.getMessage();
+		
+		if(!message.startsWith(prefix))
+			return;
+		
+		event.setCancelled(true);
+	}
+	
+}

@@ -1,0 +1,15 @@
+package bastion.defiantce.command;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CommandManager {
+
+	public static List<Command> commands = new ArrayList<Command>();
+	public String prefix = "//..";
+	
+	public CommandManager() {
+		setup();
+	}
+	
+}

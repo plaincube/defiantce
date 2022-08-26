@@ -1,0 +1,9 @@
+package bastion.defiantce.event;
+
+public class Event {
+	
+	public boolean cancelled;
+	public EventType type;
+	public EventDirection direction;
+	
+}

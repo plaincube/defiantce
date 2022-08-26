@@ -1,0 +1,7 @@
+package bastion.defiantce.event.events;
+
+import bastion.defiantce.event.Event;
+
+public class EventChat extends Event<EventChat> {
+
+}
