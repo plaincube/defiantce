@@ -32,5 +32,8 @@
     <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
     <fullyQualifiedTypeName name="bastion.defiantce.module.ModuleManager"/>
     <fullyQualifiedTypeName name="bastion.defiantce.command.Command"/>
+    <fullyQualifiedTypeName name="net.minecraft.util.ResourceLocation"/>
+    <fullyQualifiedTypeName name="bastion.defiantce.gui.MainMenu"/>
     <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.GlStateManager"/>
 </qualifiedTypeNameHistroy>
