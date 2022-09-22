@@ -2,6 +2,7 @@ package bastion.defiantce.gui;
 
 import bastion.defiantce.Defiant;
 import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.client.gui.GuiSelectWorld;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.util.ResourceLocation;
 
@@ -24,7 +25,13 @@ public class MainMenu extends GuiScreen {
 		String[] buttons = {"SinglePlayer", "MultiPlayer", "Settings", "Language", "Quit"};
 		int count = 0;
 		for(String name : buttons) {
-			float x = (width / buttons.length) * count + (width /buttons.length) / 2f + * -mc.fontRendererObj.getStringWidth(name);
+			float x = (width / buttons.length) * count + (width /buttons.length) / 2f + 8 - mc.fontRendererObj.getStringWidth(name) /2f;
+			float y = height - 20;
+			
+			boolean hovered = (mouseX >= x && mouseY >= y && mouseX < x + mc.fontRendererObj.getStringWidth(name) && mouseY < y +mc.fontRendererObj.FONT_HEIGHT);
+			
+			this.drawCenteredString(mc.fontRendererObj, name, (width / buttons.length)* count + (width /buttons.length /2f + 8), y, hovered ? 0x0000AA : -1);
+			count++;
 		}
 		
 		GlStateManager.pushMatrix();
@@ -39,6 +46,21 @@ public class MainMenu extends GuiScreen {
 	}
 	
 	public void mousePressed(int mouseX, int mouseY, int button) {
+		
+		String[] buttons = {"SinglePlayer", "MultiPlayer", "Settings", "Language", "Quit"};
+		int count = 0;
+		for(String name : buttons) {
+			float x = (width / buttons.length) * count + (width /buttons.length) / 2f + 8 - mc.fontRendererObj.getStringWidth(name) /2f;
+			float y = height - 20;
+			
+			if(mouseX >= x && mouseY >= y && mouseX < x + mc.fontRendererObj.getStringWidth(name) && mouseY < y +mc.fontRendererObj.FONT_HEIGHT) {
+				switch(name) {
+				case "SinglePlayer":
+					mc.displayGuiScreen(new GuiSelectWorld(this));
+					break;
+				}
+			}
+		}
 		
 	}
 	
