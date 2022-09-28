@@ -79,6 +79,7 @@ public class MainMenu extends GuiScreen {
 					break;
 				}
 			}
+			count++;
 		}
 		
 	}
