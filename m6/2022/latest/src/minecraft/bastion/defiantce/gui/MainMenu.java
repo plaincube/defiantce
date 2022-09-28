@@ -1,6 +1,9 @@
 package bastion.defiantce.gui;
 
 import bastion.defiantce.Defiant;
+import net.minecraft.client.gui.GuiLanguage;
+import net.minecraft.client.gui.GuiMultiplayer;
+import net.minecraft.client.gui.GuiOptions;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.GuiSelectWorld;
 import net.minecraft.client.renderer.GlStateManager;
@@ -57,6 +60,22 @@ public class MainMenu extends GuiScreen {
 				switch(name) {
 				case "SinglePlayer":
 					mc.displayGuiScreen(new GuiSelectWorld(this));
+					break;
+					
+				case "MultiPlayer":
+					mc.displayGuiScreen(new GuiMultiplayer(this));
+					break;
+					
+				case "Settings":
+					mc.displayGuiScreen(new GuiOptions(this, mc.gameSettings));
+					break;
+					
+				case "Language":
+					mc.displayGuiScreen(new GuiLanguage(this, mc.gameSettings, mc.getLanguageManager()));
+					break;
+					
+				case "Quit":
+					mc.shutdown();
 					break;
 				}
 			}

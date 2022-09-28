@@ -36,4 +36,6 @@
     <fullyQualifiedTypeName name="bastion.defiantce.gui.MainMenu"/>
     <fullyQualifiedTypeName name="bastion.defiantce.Defiant"/>
     <fullyQualifiedTypeName name="net.minecraft.client.renderer.GlStateManager"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiOptions"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiLanguage"/>
 </qualifiedTypeNameHistroy>

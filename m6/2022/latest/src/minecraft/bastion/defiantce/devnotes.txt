@@ -2,11 +2,9 @@ DefiantCE Developer's Notes
 
 Build version: m6 September-November 2022
 
-Gamrboy4life tutorial leftoff: https://youtu.be/QgoMRlv9f5Y?t=1328
-
-22 September 2022, PlainCube Bastion
+28 September 2022, PlainCube Bastion
 https://github.com/plaincube
 
-Build status: Published, working (partial, SP button in main menu).
+Build status: Published, working.
 
 DefiantCE m6, (C) Copyright August 2022- Cube and Healer
