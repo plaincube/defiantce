@@ -12,7 +12,6 @@
 			<item value="org.eclipse.buildship.ui.importwizards"/>
 			<item value="org.eclipse.m2e"/>
 			<item value="org.eclipse.oomph.importWizards"/>
-			<item value="org.eclipse.pde.ui.PluginDevelopment"/>
 			<item value="org.eclipse.team.ui.importWizards"/>
 		</list>
 	</section>
