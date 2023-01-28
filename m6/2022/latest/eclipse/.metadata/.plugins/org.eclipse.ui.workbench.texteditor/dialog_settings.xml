@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="sendChatMessage"/>
+		<item key="selection" value="//Defiant"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="//defiant"/>
 			<item value="sendChatMessage"/>
 			<item value="modules"/>
 			<item value="me.gamrboy4life.paradox"/>
@@ -22,7 +23,6 @@
 			<item value="gui.init"/>
 			<item value="guiinit"/>
 			<item value="this.mynetworkanager = networkmanager;"/>
-			<item value="this.mynetworkanager = networkmanager"/>
 		</list>
 		<list key="replacehistory">
 			<item value="bastion.defiantce"/>
