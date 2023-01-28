@@ -1,4 +1,4 @@
-list of jars for installer batch executable
+Available Jars
 
 defiantce-m6-2022-sept-oct3.jar
 dceplus-o2-2023-jan-25.jar
