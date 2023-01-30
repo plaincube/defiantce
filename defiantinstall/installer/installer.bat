@@ -68,7 +68,7 @@ echo. +===================+
 echo    Defiant Installer
 echo. +===================+
 set /p %setcd%=Installation directory (without back "\"): 
-echo %setcd% > installdir.settings
+echo %setcd% > "%setcd%\installdir.settings"
 pause
 goto home
 
@@ -78,7 +78,7 @@ echo. +===================+
 echo    Defiant Installer
 echo. +===================+
 set /p %setmc%=.minecraft directory (without back "\"): 
-echo %setmc% > mcdir.settings
+echo %setmc% > "%installdir%\mcdir.settings"
 pause
 goto home
 
