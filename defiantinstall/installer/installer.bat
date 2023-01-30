@@ -6,19 +6,18 @@ cls
 echo. +===================+
 echo    Defiant Installer
 echo. +===================+
-echo Check directory settings. If incorrect, set from Installer settings (in menu).
-set /p installdir=<installdir.settings
-set /p mcdir=<mcdir.settings
-if (%installdir%) == () (echo Installer directory not set! Set from Installer settings (in menu))
-if (%mcdir%) == () (echo .minecraft directory not set! Set from Installer settings (in menu))
-echo Installation directory: %installdir%
-echo .minecraft directory: %mcdir%
+echo Check directory settings. If incorrect, set from Installer settings in menu.
+if exist installdir.settings (set /p installdir=<installdir.settings)
+if exist mcdir.settings (set /p mcdir=<mcdir.settings)
+if (%installdir%) == () (echo Installer directory not set! Set from Installer settings in menu && set installdirset=no) else (set installdirset=yes)
+if (%mcdir%) == () (echo .minecraft directory not set! Set from Installer settings in menu && set mcset=no) else (set mcset=yes)
+if (%installdirset%) == (yes) (echo Installation directory: %installdir%)
+if (%mcset%) == (yes) (echo .minecraft directory: %mcdir%)
 pause
 goto home
 
 :home
 cls
-wget -q https://raw.githubusercontent.com/plaincube/defiantce/main/defiantinstall/jars/jarlist.txt
 echo. +===================+
 echo    Defiant Installer
 echo. +===================+
@@ -92,7 +91,7 @@ echo          About
 echo. +===================+
 echo.
 echo wget for Windows: https://eternallybored.org/ (https://eternallybored.org/misc/wget/)
-echo The Defiant series of MC Clients: CubeUltm, Suvik, Healer (Former texture artist) from Bastion/Core
+echo The Defiant series of MC Clients: CubeUltm, Suvik, Healer (Former texture artist) from Bastion
 echo Batch code: CubeUltm
 echo Batch reference: https://ss64.com/, https://learn.microsoft.com/
 echo wget reference: https://medium.com/theloudcloud/download-a-file-from-github-using-linux-commands-f0ce4e154c25
